@@ -18,12 +18,17 @@ body {
     justify-content: end;
 }
 
+.fa-magnifying-glass{
+    cursor: pointer;
+}
+
 nav {
     position: fixed;
     width: 100%;
     z-index: 2;
     background-color: rgb(31, 31, 33);
 }
+
 
 /* navbar end */
 
@@ -36,6 +41,12 @@ nav {
 .heading-col {
     /* background-color: aquamarine; */
     padding: 7rem 0rem 7rem 0rem;
+}
+.first-head{
+    cursor: pointer;
+}
+.first-head:hover::first-letter{
+    color: aqua;
 }
 
 .heading-col :nth-child(1) {
